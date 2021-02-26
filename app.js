@@ -6,8 +6,8 @@ const path = require('path')
 const { request } = require('http')
 const { response } = require('express')
 const { stringify } = require('querystring')
-/*const PORT = process.env.PORT || 5000*/
-const PORT = 3000
+const PORT = process.env.PORT || 5000
+/*const PORT = 3000*/
 
 app.use(session({
   secret: 'secret',
